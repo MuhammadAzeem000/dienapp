@@ -446,7 +446,7 @@ span.error {
 .generic-list ul li span {
     font-size: 18px;
     font-weight: 700;
-    color: var(--blue-color);
+    color: var(--primary--color);
     line-height: 18px;
     margin-bottom: 9px;
     font-family: 'Montserrat', sans-serif;
@@ -482,6 +482,34 @@ span.error {
 .more-details .generic-btn a {
     padding: 20px 25px;
 }
+
+/** MOBILE APP SECTION****/
+.app-section div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.app-section div:nth-child(1) {
+    justify-content: flex-start;
+}
+
+.app-section div:nth-child(2) {
+    justify-content: center;
+    z-index: 1;
+    animation: mover 1s infinite alternate;
+}
+
+.app-section div:nth-child(3) {
+    justify-content: flex-end;
+
+}
+
+/** MOBILE APP SECTION****/
+
 
 
 /** CLEAN SECTION****/
@@ -569,7 +597,7 @@ span.error {
 }
 
 .service-item h3 {
-    color: var(--secondary--color);
+    color: var(--text-color);
     margin-bottom: 16px;
 }
 
