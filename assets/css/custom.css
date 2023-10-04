@@ -651,7 +651,7 @@ span.error {
 
 .green-btn a:hover {
     background-color: transparent;
-    color: var(--secondary--color);
+    color: var(--white-color);
 }
 
 
@@ -793,19 +793,15 @@ span.error {
 }
 
 .team-social-icon ul li:first-child {
-    left: -20px;
+    left: -13px;
 }
 
 .team-social-icon ul li:nth-child(2) {
-    left: 9px;
+    left: 11px;
 }
 
 .team-social-icon ul li:nth-child(3) {
     left: 9px;
-}
-
-.team-social-icon ul li:nth-child(4) {
-    left: -10px;
 }
 
 .team-social-icon ul li:last-child {
