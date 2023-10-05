@@ -2004,6 +2004,10 @@ li.page-item.last {
     background: url(../images/gallery-lf-leaf.png) no-repeat center;
 }
 
+.login-form-con {
+    padding: 122px 0 130px;
+}
+
 .contact-form-con {
     padding: 122px 0 130px;
 }
@@ -2015,10 +2019,32 @@ li.page-item.last {
     grid-template-columns: 64.8% 31%;
 }
 
+.login-form h2,
 .contact-form h2,
 .contact-info h2 {
     margin-bottom: 51px;
     text-transform: uppercase;
+}
+
+.login-form p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.login-with {
+    display: flex;
+}
+
+.login-with img {
+    height: 50px;
+    width: 50px;
+}
+
+.login-form form ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .contact-form form ul {
@@ -2028,11 +2054,28 @@ li.page-item.last {
     grid-template-columns: 47.8% 47.8%;
 }
 
+.login-form form ul li .input-field {
+    height: 56px;
+    width: 100%;
+    padding: 3px 0;
+    border: 1px solid #d7d7d7;
+}
+
 .contact-form form ul li .input-field {
     height: 56px;
     width: 100%;
     padding: 3px 0;
     border: 1px solid #d7d7d7;
+}
+
+.login-form form ul li .input-field input,
+.login-form form ul li .input-field textarea {
+    width: 82%;
+    border: none;
+    font-size: 14px;
+    color: #909091;
+    padding: 6px 10px;
+    line-height: 39px;
 }
 
 .contact-form form ul li .input-field input,
@@ -2045,6 +2088,7 @@ li.page-item.last {
     line-height: 39px;
 }
 
+.login-form form ul li .input-field input::placeholder,
 .contact-form form ul li .input-field input::placeholder {
     font-size: 14px;
     color: #909091;
@@ -2054,6 +2098,8 @@ li.page-item.last {
     resize: none;
 }
 
+.login-form form ul li .input-field input:focus,
+.login-form form ul li .input-field textarea:focus,
 .contact-form form ul li .input-field input:focus,
 .contact-form form ul li .input-field textarea:focus,
 .news-letter-input button:focus {
@@ -2073,6 +2119,15 @@ li.page-item.last {
     height: 47px;
     position: absolute;
     background: url(../images/border-shape-img2.png) no-repeat;
+}
+
+.login-form form ul li:nth-child(3),
+.login-form form ul li:last-child {
+    grid-column: 1/-1;
+}
+
+.login-form form ul li:last-child textarea {
+    width: 92%;
 }
 
 .contact-form form ul li:nth-child(3),
