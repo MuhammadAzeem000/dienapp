@@ -39,6 +39,11 @@ body {
     --overlay-color: rgb(107 85 66 / 95%);
 }
 
+.text-primary{
+    color: var(--primary--color) !important;
+}
+
+
 .service-box2 .generic-box-img1 {
     z-index: 2;
 }
