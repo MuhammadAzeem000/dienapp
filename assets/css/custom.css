@@ -95,7 +95,7 @@ body {
 }
 
 .black-btn:hover {
-    background: var(--blue-color);
+    background: var(--secondary--color);
 }
 
 .service-item a:hover {
@@ -108,7 +108,7 @@ body {
 }
 
 .team-social-icon ul li a:hover {
-    background: var(--blue-color);
+    background: var(--secondary--color);
 }
 
 .top-bar-con {
@@ -183,7 +183,7 @@ body {
 
 .header-con .navbar-dark .navbar-nav .nav-button {
     background-color: var(--accent);
-    padding: 10px 15px;
+    padding: 10px 25px;
     color: var(--white-color);
     cursor: pointer;
     text-transform: uppercase;
@@ -601,6 +601,14 @@ span.error {
     margin-bottom: 35px;
 }
 
+.service-item figure img {
+    transition: all 500ms ease-in-out;
+}
+
+.service-item:hover figure img {
+    scale: 1.05;
+}
+
 .service-item h3 {
     color: var(--text-color);
     margin-bottom: 16px;
@@ -735,7 +743,7 @@ span.error {
 }
 
 .team-box-item h3 {
-    color: var(--blue-color);
+    color: var(--primary--color);
     margin-bottom: 2px;
     text-transform: uppercase;
 }
@@ -1044,7 +1052,7 @@ span.error {
     padding: 50px 10px 21px;
     position: relative;
     border-radius: 10px 10px 0 0;
-    background: var(--secondary--color) url(../images/plan-bubble-img.png) no-repeat center;
+    background: var(--primary--color) url(../images/plan-bubble-img.png) no-repeat center;
     background-size: cover;
 }
 
@@ -1071,8 +1079,8 @@ span.error {
 }
 
 .paln-tag {
-    background: var(--primary--color);
-    border-radius: 18px;
+    background: var(--secondary--color);
+    border-radius: 5px;
     display: inline-block;
     color: var(--white-color);
     font-size: 16px;
@@ -1225,15 +1233,15 @@ span.error {
     position: relative;
     z-index: 1;
     width: 89.4%;
-    margin-left: auto;
+    margin: -100px auto 0px auto;
 }
 
 .blog-item-content:hover a h4 {
-    color: var(--primary--color);
+    color: var(--secondary--color);
 }
 
 .blog-item-content:hover {
-    box-shadow: 6px 6px 18px rgb(1 208 204 / 21%);
+    box-shadow: 6px 6px 18px var(--overlay-color);
 }
 
 .blog-item-content a {
@@ -1242,7 +1250,7 @@ span.error {
 
 .blog-item-content a h4 {
     font-size: 18px;
-    color: var(--secondary--color);
+    color: var(--primary--color);
     line-height: 25px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -2140,7 +2148,7 @@ li.page-item.last {
 }
 
 .contact-info-content h5 {
-    color: var(--secondary--color);
+    color: var(--primary--color);
     font-size: 18px;
     font-weight: 600;
     line-height: 18px;
