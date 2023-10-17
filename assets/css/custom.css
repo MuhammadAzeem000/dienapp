@@ -39,7 +39,7 @@ body {
     --overlay-color: rgb(107 85 66 / 95%);
 }
 
-.text-primary{
+.text-primary {
     color: var(--primary--color) !important;
 }
 
