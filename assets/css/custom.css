@@ -2817,3 +2817,21 @@ li.page-item.last {
 }
 
 /********* FAQ SECTION ****/
+
+/* ain ul islam*/
+
+
+.header-con .wrapper .navbar .collapse ul li .dropdown .nav-link:hover{
+    background-color: var(--white-color);
+    border-color: var(--white-color);
+
+}
+.header-con .wrapper .navbar .collapse ul li .show>.btn-light.dropdown-toggle {
+    background-color: var(--white-color);
+    border-color: var(--white-color);
+
+}
+
+
+
+
