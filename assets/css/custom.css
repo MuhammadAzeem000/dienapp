@@ -442,8 +442,8 @@ span.error {
 
 /**** CLEAN SECTION****/
 .clean-con {
-    padding-top: 165px;
-    padding-bottom: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .generic-box {
@@ -535,7 +535,7 @@ span.error {
 /***** SERVICE SECTION**/
 .service-con {
     padding-top: 94px;
-    padding-bottom: 125px;
+    padding-bottom: 100px;
 }
 
 .service-con .wrapper {
