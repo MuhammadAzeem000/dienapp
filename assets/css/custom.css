@@ -226,7 +226,7 @@ body {
 /*** HEADER SECTION *********/
 /*****BANNER SECTION******/
 .banner-inner-con {
-    padding-top: 310px;
+    padding-top: 150px;
     padding-bottom: 269px;
 }
 
@@ -431,6 +431,15 @@ span.error {
 }
 
 /*****CONTACT SECTION******/
+
+/**** VIDEO SECTION****/
+.video-con {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/**** VIDEO SECTION****/
+
 /**** CLEAN SECTION****/
 .clean-con {
     padding-top: 165px;
