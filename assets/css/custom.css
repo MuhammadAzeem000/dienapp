@@ -524,12 +524,16 @@ span.error {
 .app-section div:nth-child(2) {
     justify-content: center;
     z-index: 1;
-    animation: mover 1s infinite alternate;
+    /* animation: mover 1s infinite alternate; */
 }
 
 .app-section div:nth-child(3) {
     justify-content: flex-end;
 
+}
+
+.mobile-screen .owl-item.active {
+    justify-content: center !important;
 }
 
 /** MOBILE APP SECTION****/
