@@ -1,7 +1,11 @@
+
+
 @media only screen and (max-width: 1919px) {
     .banner-img img {
         width: 100%;
+
     }
+    
 }
 
 @media only screen and (max-width: 1800px) {
@@ -56,8 +60,8 @@
     }
 
     .generic-box-img1 img {
-        width: 440px;
-        height: 440px;
+        width: 280px;
+        height: 280px;
     }
 
     .generic-box-img1:before {
@@ -119,8 +123,8 @@
     }
 
     .generic-box-img1:after {
-        width: 470px;
-        height: 470px;
+        width: 310px;
+        height: 310px;
     }
 
     .single-blog-con {
@@ -238,7 +242,8 @@
     }
 
     .banner-img {
-        bottom: -217px;
+        bottom: -65px;
+        right: -60px;
     }
 
     .generic-btn a {
@@ -261,10 +266,10 @@
         padding: 14px 0;
     }
 
-    .clean-con {
+    /* .clean-con {
         padding-top: 150px;
         padding-bottom: 120px;
-    }
+    } */
 
     h2 {
         font-size: 36px;
@@ -329,9 +334,9 @@
         padding: 20px 56px;
     }
 
-    .team-con {
+    /* .team-con {
         padding: 90px 0 50px;
-    }
+    } */
 
     .team-title h2 {
         margin-bottom: 74px;
@@ -385,10 +390,10 @@
         bottom: 152px;
     }
 
-    .user-con {
+    /* .user-con {
         padding-top: 120px;
         padding-bottom: 90px;
-    }
+    } */
 
     .plan-box::after {
         top: 167px;
@@ -454,8 +459,8 @@
     }
 
     .banner-inner-con {
-        padding-top: 150px;
-        padding-bottom: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .sub-banner .banner-inner-con.sub-banner {
@@ -710,8 +715,8 @@
     }
 
     .banner-inner-con {
-        padding-top: 200px;
-        padding-bottom: 180px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .banner-img img {
@@ -719,8 +724,8 @@
     }
 
     .banner-img {
-        bottom: -194px;
-        left: -122px;
+        bottom: -48px;
+        left: -28px;
     }
 
     h2 {
@@ -728,10 +733,10 @@
         line-height: 40px;
     }
 
-    .clean-con {
+    /* .clean-con {
         padding-top: 120px;
         padding-bottom: 100px;
-    }
+    } */
 
     .generic-box-content::after {
         top: 3px;
@@ -893,10 +898,10 @@
         bottom: 136px;
     }
 
-    .user-con {
+    /* .user-con {
         padding-top: 100px;
         padding-bottom: 80px;
-    }
+    } */
 
     .price-title h2 {
         margin-bottom: 150px;
@@ -1322,7 +1327,7 @@
 
     .generic-list2 {
         width: 36%;
-        margin: 0 auto;
+        margin: 0 ;
         text-align: left;
     }
 
@@ -1432,7 +1437,7 @@
     }
 
     .banner-img {
-        bottom: -11px;
+        bottom: -60px;
         left: 0;
         position: relative;
     }
@@ -1494,11 +1499,11 @@
         height: 154px;
     }
 
-    .clean-con {
+    /* .clean-con {
         padding-top: 100px;
         padding-bottom: 100px;
         text-align: center;
-    }
+    } */
 
     .generic-box-content::after {
         display: none;
@@ -1588,9 +1593,9 @@
         margin-bottom: 54px;
     }
 
-    .team-con {
+    /* .team-con {
         padding: 50px 0 50px;
-    }
+    } */
 
     .project-con {
         padding: 70px 0;
@@ -1643,10 +1648,10 @@
         bottom: 104px;
     }
 
-    .user-con {
+    /* .user-con {
         padding-top: 70px;
         padding-bottom: 70px;
-    }
+    } */
 
     .price-title h2 {
         margin-bottom: 120px;
@@ -2028,10 +2033,10 @@
         padding: 14px 20px;
     }
 
-    .clean-con {
+    /* .clean-con {
         padding-top: 70px;
         padding-bottom: 70px;
-    }
+    } */
 
     h2 {
         font-size: 26px;
@@ -2584,10 +2589,10 @@
         font-size: 14px;
     }
 
-    .clean-con {
+    /* .clean-con {
         padding-top: 50px;
         padding-bottom: 50px;
-    }
+    } */
 
     h2 {
         font-size: 22px;
@@ -2687,11 +2692,11 @@
     .owl-carousel .owl-nav button {
         top: 0;
     }
-
+/* 
     .user-con {
         padding-top: 50px;
         padding-bottom: 50px;
-    }
+    } */
 
     .blog-item img {
         width: 100%;

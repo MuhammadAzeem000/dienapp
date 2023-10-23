@@ -226,8 +226,8 @@ body {
 /*** HEADER SECTION *********/
 /*****BANNER SECTION******/
 .banner-inner-con {
-    padding-top: 150px;
-    padding-bottom: 269px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .banner-con {
@@ -235,6 +235,11 @@ body {
     background-position: center;
 }
 
+.contact-banner{
+    overflow: hidden;
+    background-image: url(../images/map-6.jpg);
+    background-size: cover;
+}
 .home-banner {
     overflow: hidden;
     background-image: url(../images/home-banner.jpg);
@@ -311,8 +316,8 @@ body {
 }
 
 .banner-title:after {
-    top: -76px;
-    right: 40px;
+    top: 75px;
+    right: 25px;
     content: "";
     width: 85px;
     height: 58px;
@@ -382,8 +387,8 @@ body {
 }
 
 .banner-img {
-    left: -159px;
-    bottom: -295px;
+    right: -120px;
+    bottom: -100px;
     position: absolute;
 }
 
@@ -434,16 +439,16 @@ span.error {
 
 /**** VIDEO SECTION****/
 .video-con {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /**** VIDEO SECTION****/
 
 /**** CLEAN SECTION****/
 .clean-con {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .generic-box {
@@ -499,7 +504,7 @@ span.error {
 }
 
 .more-details .generic-btn a {
-    padding: 20px 25px;
+    padding: 10px 14px;
 }
 
 /** MOBILE APP SECTION****/
@@ -538,8 +543,8 @@ span.error {
 /** CLEAN SECTION****/
 /***** SERVICE SECTION**/
 .service-con {
-    padding-top: 94px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .service-con .wrapper {
@@ -718,7 +723,7 @@ span.error {
 /***** SLIDER SECTION *****/
 /***** TEAM SECTION ****/
 .team-con {
-    padding: 97px 0 52px;
+    padding: 50px 0 52px;
     background: #fafafa;
 }
 
@@ -837,7 +842,7 @@ span.error {
 /***** TEAM SECTION ****/
 /*****PROJECT SECTION******/
 .project-con {
-    padding: 125px 0 177px;
+    padding: 50px 50px;
 }
 
 .project-title h2 {
@@ -913,8 +918,8 @@ span.error {
 }
 
 .contact-inner-con {
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .form-con ul {
@@ -1058,13 +1063,18 @@ span.error {
 /*********** MAP SECTION ****/
 /**** PLAN SECTION ****/
 .user-con {
-    padding-top: 145px;
-    padding-bottom: 112px;
-    background: #f7f8fb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f3f3f3;
+}
+.testi-con{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #fff;
 }
 
 .price-title h2 {
-    margin-bottom: 228px;
+    margin-bottom: 50px;
 }
 
 .plan-header {
@@ -1213,7 +1223,7 @@ span.error {
     width: 100%;
     height: 653px;
     background: url(../images/design-img.png) no-repeat center;
-    top: 167px;
+    top: 0px;
     left: 0;
     position: absolute;
 }
@@ -1578,7 +1588,7 @@ span.error {
 }
 
 .plan-con {
-    margin-bottom: 170px;
+    margin-bottom: 50px;
 }
 
 .client-title h2 {
@@ -1818,7 +1828,7 @@ span.error {
     right: auto;
     width: 54px;
     height: 37px;
-    left: -134px;
+    left: -80px;
     background: url(../images/service-right-leaf.png) no-repeat center;
 }
 
@@ -1860,7 +1870,7 @@ span.error {
 }
 
 .generic-list2 {
-    width: 33.5%;
+    width: 100%;
 }
 
 .service-box:after,
@@ -2023,11 +2033,11 @@ li.page-item.last {
 }
 
 .login-form-con {
-    padding: 122px 0 130px;
+    padding: 50px;
 }
 
 .contact-form-con {
-    padding: 122px 0 130px;
+    padding: 50px ;
 }
 
 .contact-box2 {
@@ -2505,8 +2515,8 @@ li.page-item.last {
 .generic-box-img1 img {
     top: 31px;
     left: 13px;
-    width: 510px;
-    height: 510px;
+    width: 310px;
+    height: 310px;
     object-fit: cover;
 }
 
@@ -2524,9 +2534,9 @@ li.page-item.last {
     position: absolute;
     top: 0;
     left: 0;
-    background: var(--primary--color);
-    width: 538px;
-    height: 538px;
+    background: #796654;
+    width: 338px;
+    height: 338px;
     border-radius: 50%;
 }
 
