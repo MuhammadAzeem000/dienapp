@@ -1,11 +1,9 @@
-
-
 @media only screen and (max-width: 1919px) {
     .banner-img img {
         width: 100%;
 
     }
-    
+
 }
 
 @media only screen and (max-width: 1800px) {
@@ -82,13 +80,6 @@
     .contact-inner-con:after {
         width: 136px;
         height: 160px;
-        background-size: contain;
-    }
-
-    .contact-inner-con:before {
-        top: -2px;
-        width: 310px;
-        height: 110px;
         background-size: contain;
     }
 
@@ -419,12 +410,6 @@
         margin-bottom: 140px;
     }
 
-    .client-title:after {
-        width: 40px;
-        right: 300px;
-        background-size: contain;
-    }
-
     .client-review-content {
         padding: 45px 26px;
     }
@@ -440,18 +425,6 @@
 
     .newsletter-box {
         padding: 38px 59px 24px 44px;
-    }
-
-    .footer-box::after {
-        right: 0;
-    }
-
-    .footer-con:before {
-        top: auto;
-        bottom: 7px;
-        width: 148px;
-        height: 199px;
-        background-size: contain;
     }
 
     .copyright-inner-con {
@@ -484,15 +457,6 @@
 @media only screen and (max-width: 1199px) {
     .map-con iframe {
         height: 400px;
-    }
-
-    .contact-inner-con:before {
-        display: none;
-    }
-
-    .footer-con:before {
-        width: 100px;
-        height: 115px;
     }
 
     .footer-con:after {
@@ -933,10 +897,6 @@
         margin-bottom: 100px;
     }
 
-    .client-title:after {
-        right: 260px;
-    }
-
     .user-con:after {
         top: 50%;
         width: 200px;
@@ -1327,7 +1287,7 @@
 
     .generic-list2 {
         width: 36%;
-        margin: 0 ;
+        margin: 0;
         text-align: left;
     }
 
@@ -1695,10 +1655,6 @@
     .plan-btn a {
         font-size: 14px;
         padding: 11px 22px;
-    }
-
-    .client-title:after {
-        display: none;
     }
 
     .client-title h2 {
@@ -2692,7 +2648,8 @@
     .owl-carousel .owl-nav button {
         top: 0;
     }
-/* 
+
+    /* 
     .user-con {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -2753,13 +2710,6 @@
     .footer-phone a {
         font-size: 22px;
         margin-bottom: 4px;
-    }
-
-    .footer-box::after {
-        right: 0;
-        width: 38px;
-        height: 24px;
-        background-size: contain;
     }
 
     .black-btn {

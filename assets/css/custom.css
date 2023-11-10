@@ -37,6 +37,7 @@ body {
     --white-color: #fff;
     --blue-color: #2f5fad;
     --overlay-color: rgb(107 85 66 / 95%);
+    --royal-blue: #002366
 }
 
 .text-primary {
@@ -118,7 +119,7 @@ body {
 
 .top-bar-con {
     padding: 16px 0;
-    background: var(--color--3);
+    background: var(--royal-blue);
 }
 
 .socisl-con ul li a i {
@@ -235,11 +236,12 @@ body {
     background-position: center;
 }
 
-.contact-banner{
+.contact-banner {
     overflow: hidden;
     background-image: url(../images/map-6.jpg);
     background-size: cover;
 }
+
 .home-banner {
     overflow: hidden;
     background-image: url(../images/home-banner.jpg);
@@ -257,52 +259,6 @@ body {
     background: var(--overlay-color);
 }
 
-.contact-title:after {
-    top: 2px;
-    right: 56px;
-    content: "";
-    width: 59px;
-    height: 40px;
-    position: absolute;
-    background: url(../images/contact-leaf.png) no-repeat;
-}
-
-.banner-inner-con:before {
-    bottom: 0;
-    left: 0;
-    content: "";
-    z-index: 3;
-    width: 354px;
-    height: 347px;
-    position: absolute;
-    background: url(../images/banner-dots-img.png) no-repeat;
-}
-
-.banner-con:before {
-    top: 61px;
-    left: 24px;
-    z-index: 2;
-    content: "";
-    width: 460px;
-    height: 304px;
-    position: absolute;
-    background: url(../images/banner-bubble-top-img.png) no-repeat;
-    animation: mover 1s infinite alternate;
-}
-
-.banner-con:after {
-    bottom: -78px;
-    left: 50%;
-    z-index: 2;
-    content: "";
-    width: 257px;
-    height: 335px;
-    position: absolute;
-    background: url(../images/banner-bubble-bottom-img.png) no-repeat;
-    transform: translateX(-140%);
-    animation: mover 1s infinite alternate;
-}
-
 .banner-title h1 {
     margin-bottom: 16px;
 }
@@ -313,26 +269,6 @@ body {
     padding-right: 94px;
     margin-bottom: 44px;
     color: rgb(255 255 255 / 60%);
-}
-
-.banner-title:after {
-    top: 75px;
-    right: 25px;
-    content: "";
-    width: 85px;
-    height: 58px;
-    position: absolute;
-    background: url(../images/banner-left-leaf.png) no-repeat;
-}
-
-.banner-title:before {
-    top: 130px;
-    left: -130px;
-    content: "";
-    width: 52px;
-    height: 31px;
-    position: absolute;
-    background: url(../images/banner-rt-leaf.png) no-repeat;
 }
 
 .call-con img {
@@ -394,32 +330,8 @@ body {
 
 /*****BANNER SECTION******/
 /*****CONTACT SECTION******/
-.contact-con:before,
-.contact-inner-con:after {
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    content: "";
-    width: 313px;
-    height: 371px;
-    position: absolute;
-    background: url(../images/contact-bubble-lft-img.png) no-repeat;
-}
-
 span.error {
     color: red;
-}
-
-.contact-inner-con:before {
-    top: 68px;
-    left: 0;
-    z-index: 2;
-    content: "";
-    width: 438px;
-    height: 346px;
-    position: absolute;
-    background: url(../images/contact-bubble-img.png) no-repeat;
-    animation: mover 1s infinite alternate;
 }
 
 .contact-inner-con:after {
@@ -1067,7 +979,8 @@ span.error {
     padding-bottom: 50px;
     background: #f3f3f3;
 }
-.testi-con{
+
+.testi-con {
     padding-top: 50px;
     padding-bottom: 50px;
     background: #fff;
@@ -1178,16 +1091,6 @@ span.error {
 
 .plan-body ul {
     margin-bottom: 0;
-}
-
-.generic-box-content::after {
-    content: "";
-    width: 85px;
-    height: 58px;
-    background: url(../images/leaft-icon.png) no-repeat center;
-    top: 25px;
-    right: -43%;
-    position: absolute;
 }
 
 .project-con .project-box1:after {
@@ -1542,38 +1445,6 @@ span.error {
     color: rgb(249 249 249 / 60%);
 }
 
-.footer-con:after {
-    content: "";
-    top: -66px;
-    right: 0;
-    width: 189px;
-    height: 218px;
-    position: absolute;
-    background: url(../images/footer-right-bubble.png) no-repeat center;
-    animation: mover 1s infinite alternate;
-}
-
-.footer-con:before {
-    content: "";
-    top: 104px;
-    left: 0;
-    width: 210px;
-    height: 255px;
-    position: absolute;
-    background: url(../images/footer-left-bubble.png) no-repeat center;
-    animation: mover 1s infinite alternate;
-}
-
-.footer-box::after {
-    content: "";
-    width: 59px;
-    height: 40px;
-    background: url(../images/blog-leaf.png) no-repeat center;
-    bottom: -28px;
-    right: -41px;
-    position: absolute;
-}
-
 .black-btn {
     position: absolute;
     width: 98px;
@@ -1703,16 +1574,6 @@ span.error {
     right: -106px;
 }
 
-.client-title:after {
-    top: 0;
-    content: "";
-    width: 59px;
-    height: 40px;
-    right: 160px;
-    position: absolute;
-    background: url(../images/client-leaf.png) no-repeat center;
-}
-
 .user-con:after {
     top: 50%;
     right: 0;
@@ -1810,26 +1671,6 @@ span.error {
 
 .service-user-con:after {
     display: none;
-}
-
-.service-box .generic-box-content::after,
-.service-box2 .generic-box-content::after {
-    top: 200px;
-    content: "";
-    width: 50px;
-    height: 34px;
-    right: -110px;
-    position: absolute;
-    background: url(../images/service-left.png) no-repeat center;
-}
-
-.service-box2 .generic-box-content::after {
-    top: 40px;
-    right: auto;
-    width: 54px;
-    height: 37px;
-    left: -80px;
-    background: url(../images/service-right-leaf.png) no-repeat center;
 }
 
 .job-title {
@@ -2037,7 +1878,7 @@ li.page-item.last {
 }
 
 .contact-form-con {
-    padding: 50px ;
+    padding: 50px;
 }
 
 .contact-box2 {
