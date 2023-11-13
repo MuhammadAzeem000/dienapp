@@ -151,6 +151,100 @@
     </section>
     <!-- BANNER SECTION -->
 
+    <!--SEEKER BENIFITS SECTION-->
+    <section class="w-100 float-left clean-con">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="app-section position-relative">
+                            <div class='d-none d-md-flex'>
+                                <img src="assets/images/app-mob-02.png" alt="clean-img" width="auto" height=600 />
+                            </div>
+                            <div class='position-relative position-md-absolute'>
+                                <img src="assets/images/app-mob-01.png" alt="clean-img" width="auto" height=700 />
+                                <div class="mobile-screen owl-carousel owl-theme">
+                                    <figure class="item">
+                                        <img src="./assets/images/provider_screens/04.png" alt="" width="auto" height=700>
+                                    </figure>
+                                    <figure class="item">
+                                        <img src="./assets/images/provider_screens/05.png" alt="" width="auto" height=700>
+                                    </figure>
+                                    <figure class="item">
+                                        <img src="./assets/images/provider_screens/00.png" alt="" width="auto" height=700>
+                                    </figure>
+                                    <figure class="item">
+                                        <img src="./assets/images/provider_screens/01.png" alt="" width="auto" height=700>
+                                    </figure>
+                                    <figure class="item">
+                                        <img src="./assets/images/provider_screens/02.png" alt="" width="auto" height=700>
+                                    </figure>
+                                    <figure class="item">
+                                        <img src="./assets/images/provider_screens/03.png" alt="" width="auto" height=700>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class='d-none d-md-flex'>
+                                <img src="assets/images/app-mob-03.png" alt="clean-img" width="auto" height=600 />
+                            </div>
+                        </div>
+    
+                        <div class="row g-3">
+                            <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+                                <a href="#">
+                                    <img class='cursor-pointer' src="./assets/images/btn-1.webp" alt="App-Store" height=50
+                                        width="auto" />
+                                </a>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
+                                <a href="#">
+                                    <img class="cursor-pointer" src="./assets/images/btn-2.webp" alt="Google-Play" height=50
+                                        width="auto" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="generic-box-content position-relative">
+                            <h2 data-aos="fade-up" data-aos-duration="600">Benifits of  <span
+                                    class="color-01d0cc"> Service Seeker</span></h2>
+                            <div class="generic-list">
+                                <ul class="list-unstyled">
+                                    <li data-aos="fade-up" data-aos-duration="600">
+                                        <span class="d-block">Get the service provider profile for reference after booking the job</span>
+                                    </li>
+                                    <li data-aos="fade-up" data-aos-duration="600">
+                                        <span class="d-block">See your services being performed at the touch of a button</span>
+                                    </li>
+                                    <li data-aos="fade-up" data-aos-duration="600">
+                                        <span class="d-block"> Mitigate liabilities and losses</span>
+                                    </li>
+                                    <li data-aos="fade-up" data-aos-duration="600">
+                                        <span class="d-block">Automatic updates on the Provider’s arrival and departure</span>
+                                    </li>
+                                    <li data-aos="fade-up" data-aos-duration="600">
+                                        <span class="d-block">Easy access to communicate via the App or Portal</span>
+                                    </li>
+                                    <li data-aos="fade-up" data-aos-duration="600">
+                                        <span class="d-block">Quick and easy payment options</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="d-flex align-items-center more-details">
+                                <div class="call-con position-relative d-inline-block" data-aos="fade-up"
+                                    data-aos-duration="600">
+                                    <img src="assets/images/headphones-icon.png" alt="headphones-icon">
+                                    <div class="call-number">
+                                        <span class="d-block">Register as</span>
+                                        <a href="register.html">Service Seeker</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--SEEKER BENIFITS SECTION-->
 
     <!-- USER SECTION -->
     <section class="w-100 float-left newsletter-con" data-aos="fade-up" data-aos-duration="600">
@@ -256,7 +350,6 @@
     <script src="assets/js/unpkg.com_blaze-slider@1.9.3_dist_blaze-slider.dev.js"></script>
     <script src="assets/js/aos.js"></script>
     <script>
-
         $('#client-slider').owlCarousel({
             loop: true,
             margin: 30,
@@ -284,12 +377,21 @@
                     items: 1
                 },
                 600: {
-                    items: 3
+                    items: 2
                 },
                 1000: {
                     items: 4
                 }
             }
+        })
+
+        $('.mobile-screen').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            items: 1,
+
+
         })
     </script>
     <script>
