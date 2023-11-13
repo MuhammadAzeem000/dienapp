@@ -406,6 +406,7 @@ span.error {
     background: url(../images/check-icon.png) no-repeat;
     padding-left: 50px;
     padding-right: 29px;
+    padding-bottom: 1px;
 }
 
 .generic-list ul li p {
@@ -2691,6 +2692,10 @@ li.page-item.last {
 
 #accordion .card-header .btn.btn-link:not(.collapsed) {
     color: var(--primary--color);
+}
+
+.call-to-action-model .modal-content{
+    background-color: #6B5542;
 }
 
 /********* FAQ SECTION ****/
