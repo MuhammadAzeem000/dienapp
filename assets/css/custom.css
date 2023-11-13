@@ -49,6 +49,11 @@ body {
     z-index: 2;
 }
 
+.custom-file-label::after {
+    background-color: var(--accent);
+    color: var(--white-color);
+}
+
 /*** HEADER SECTION *********/
 .header-con .navbar-dark .navbar-nav .nav-link:hover,
 .call-number a:hover,
