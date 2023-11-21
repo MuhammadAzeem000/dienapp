@@ -1124,7 +1124,7 @@ span.error {
     position: relative;
 }
 
-.project-con .project-box1:before {
+/* .project-con .project-box1:before {
     content: "";
     width: 85px;
     height: 58px;
@@ -1133,7 +1133,7 @@ span.error {
     left: -210px;
     position: absolute;
     transform: translatey(-52%);
-}
+} */
 
 .plan-box::after {
     content: "";
@@ -1150,7 +1150,7 @@ span.error {
     position: relative;
 }
 
-.price-title h2::after {
+/* .price-title h2::after {
     content: "";
     width: 59px;
     height: 40px;
@@ -1158,7 +1158,7 @@ span.error {
     top: 130%;
     left: 50px;
     position: absolute;
-}
+} */
 
 /**** PLAN SECTION ****/
 /**** BLOG SECTION ****/
