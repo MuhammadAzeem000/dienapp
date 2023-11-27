@@ -37,7 +37,7 @@ body {
     --white-color: #fff;
     --blue-color: #2f5fad;
     --overlay-color: rgb(107 85 66 / 95%);
-    --royal-blue: #002366
+    --royal-blue: #002366;
 }
 
 .text-primary {
@@ -375,6 +375,16 @@ span.error {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.featured-con {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.instant-con{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
 
 .generic-box {
     gap: 48px;
@@ -402,7 +412,7 @@ span.error {
 }
 
 .generic-list ul li {
-    margin-bottom: 37px;
+    margin-bottom: 18px;
     background: url(../images/check-icon.png) no-repeat;
     padding-left: 50px;
     padding-right: 29px;
@@ -1107,7 +1117,7 @@ span.error {
     margin-bottom: 0;
 }
 
-.project-con .project-box1:after {
+/* .project-con .project-box1:after {
     content: "";
     width: 521px;
     height: 411px;
@@ -1118,13 +1128,13 @@ span.error {
     opacity: 20%;
     z-index: -1;
     animation: mover 1s infinite alternate;
-}
+} */
 
 .project-con .wrapper {
     position: relative;
 }
 
-.project-con .project-box1:before {
+/* .project-con .project-box1:before {
     content: "";
     width: 85px;
     height: 58px;
@@ -1133,7 +1143,7 @@ span.error {
     left: -210px;
     position: absolute;
     transform: translatey(-52%);
-}
+} */
 
 .plan-box::after {
     content: "";
@@ -1150,7 +1160,7 @@ span.error {
     position: relative;
 }
 
-.price-title h2::after {
+/* .price-title h2::after {
     content: "";
     width: 59px;
     height: 40px;
@@ -1158,7 +1168,7 @@ span.error {
     top: 130%;
     left: 50px;
     position: absolute;
-}
+} */
 
 /**** PLAN SECTION ****/
 /**** BLOG SECTION ****/
@@ -1728,7 +1738,7 @@ span.error {
     width: 100%;
 }
 
-.service-box:after,
+/* .service-box:after,
 .service-box2:after {
     top: 44px;
     content: "";
@@ -1739,7 +1749,7 @@ span.error {
     position: absolute;
     background: url(../images/service-bubble-img.png) no-repeat;
     animation: mover 1s infinite alternate;
-}
+} */
 
 .service-box2:after {
     top: 39px;
@@ -2696,6 +2706,17 @@ li.page-item.last {
 
 .call-to-action-model .modal-content{
     background-color: #6B5542;
+}
+
+.about-btn{
+    background-color: var(--accent);
+    color: white;
+}
+.about-btn:hover{
+    background-color: var(--royal-blue);
+    color: white;
+    transform: translateY(-8px);
+    transition: all 0.5s ease-in-out;
 }
 
 /********* FAQ SECTION ****/
