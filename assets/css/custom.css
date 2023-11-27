@@ -1738,7 +1738,7 @@ span.error {
     width: 100%;
 }
 
-.service-box:after,
+/* .service-box:after,
 .service-box2:after {
     top: 44px;
     content: "";
@@ -1749,7 +1749,7 @@ span.error {
     position: absolute;
     background: url(../images/service-bubble-img.png) no-repeat;
     animation: mover 1s infinite alternate;
-}
+} */
 
 .service-box2:after {
     top: 39px;
