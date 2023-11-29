@@ -1,10 +1,4 @@
-@media only screen and (max-width: 1919px) {
-    .banner-img img {
-        width: 100%;
 
-    }
-
-}
 
 @media only screen and (max-width: 1800px) {
     .single-blog-con:after {
@@ -235,6 +229,9 @@
     .banner-img {
         bottom: -65px;
         right: -60px;
+    }
+    .banner-img img{
+       width: 430px;
     }
 
     .generic-btn a {
@@ -1397,13 +1394,13 @@
     }
 
     .banner-img {
-        bottom: -60px;
+        bottom: -10px;
         left: 0;
         position: relative;
     }
 
     .banner-img img {
-        width: 400px;
+        width: 500px;
     }
 
     .banner-inner-con {
@@ -1967,8 +1964,12 @@
         width: 110px;
     }
 
+    .banner-img {
+        bottom: -60px;
+    }
+
     .banner-img img {
-        width: 350px;
+        width: 500px;
     }
 
     .banner-inner-con {
